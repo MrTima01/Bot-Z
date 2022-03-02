@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com//ALEXA /root/ales
+RUN git clone https://github.com/Kavindya-X/ALEXA /root/ales
 WORKDIR /root/ales/
 RUN git clone https://github.com/Kavindya-X/Config
 RUN git clone https://github.com/Kavindya-X/Angela-x
