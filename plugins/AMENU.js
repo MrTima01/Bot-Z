@@ -103,9 +103,10 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────●●►
  *│🔍SEARCH COMMANDS*
  │     ──────────
- │► .yt [ topic ]
- │► .wiki [text ]
- │► .movie [ movie name ]
+ │► .yt [ type your link or name ] 
+     [search you topic you tube]
+ │► .wiki [type your text ]
+ │► .movie [ type movie name ]
  │► .github [ name ]
  │► .show [tv series ]
  │► .weather [ city ]
@@ -184,6 +185,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │►.work public /private
  │►.setrules
  │► .setvar
+    Ex:- {.setvar ALIVE_MESSAGE:hey,I am alive now}
  │ ▷EMOJI_COMMAND:🛡️ [change Cmd emoj]
  │ ▷EMOJI_DESCRIPTION:  🔍 [change des emoj]
  │ ▷EMOJI_EXAMPLE:🔆 [change ex emoji]
@@ -197,8 +199,8 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │    
  │    THANK FOR
  │     USING
- │ AMAZONE ALEXA ✉️
- │©️TEENU-X
+ │ QUEEN ALEXA ✉️
+ │©️KAVINDYA-X
  ╰───────────●●►
  
 `}) 
