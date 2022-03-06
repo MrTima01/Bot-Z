@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('amazone');
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-Amazon.addCommand({pattern: 'menu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
+Amazon.addCommand({pattern: 'oldmenu', fromMe: tk, desc: Lang.MENU}, (async (message, match) => {
     var time = new Date().toLocaleString('SI', { timeZone: Config.TIME_ZONE }).split(' ')[1]
 
     var wish = ''
