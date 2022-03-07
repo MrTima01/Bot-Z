@@ -46,7 +46,8 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │   ───────
  │
  │► .`+Config.PANEL_COMMAND+` [All command list]
- 
+ |
+ | 》.menu  [New Commond List]
  ╰───────────●●►
 
  ────●●►
@@ -55,40 +56,26 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────●●►
  *│💰DOWNLOAD COMMANDS*
  │      ────────
- 
+ | 》.2video [yt link]
+ | 》.spdf   [ link ]
+ | 》.2song  [ name ]
  ╰────────────●●►
 
  ╭────────────●●►
- *│🔍SEARCH COMMANDS*
+ *│🔍MENU COMMANDS*
  │     ──────────
- │► .yt [ topic ]
- │► .wiki [text ]
- │► .movie [ movie name ]
- │► .github [ name ]
- │► .show [tv series ]
- │► .weather [ city ]
+ │►.ol paper [SELECT Your Paper]
+ │►.oldmenu  [  OLD Alexa Menu ]
+ │► .power   [ Power Menu      ]
+ │  *power menu is coming soon*
  │
  ╰────────────●●►
 
  ╭────────────●●►
  *│🛸GROUP COMMANDS*
  │  ─────────
- │► .rename [change Group name]
- │► .rules    [check rules]
- │► .info [check details]
- │► .tagadmin 
- │►.antispm
- │►.clear
- │► .report
- │► .tagall  
- │► .ban [ for owner ]
- │► .add [ for owner ]
- │► .promote [ for owner ]
- │► .demote [ for owner ]
- │► .invite [ for owner ]
- │► .leave [ for owner ]
- │►.welcome 
- │►.goodbye
+ │
+ │
  ╰───────────●●►
 
  ╭───────────●●►
@@ -96,33 +83,15 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │      ───────
  │► .axmedia [25+ tools]
  │► .tblend
- │►.ocr [Read Text]
- │►.mp3 [Video To mp3]
- │► .ffmpeg [fade in:0:30 ]
- │► .removebg
- │► .spdf [convent site to pdf]
- │► .voicy
- │► .unvoice [mp3 to voice]
+ │
  ╰───────────●●►
 
  ╭───────────●●►
- *│⚡MORE COMMAND*
- │  ────────
- │►.scan
- │►.brdmore
- │►.rdmore
- │►.tts
- │►.gm
- │►.gn
- │►.ftext
- │► .wallpaper
- │► .anime
- │► .listanim
+ *│⚡
  │► .
  ╭───────────●●►
- *│⚙️BOT SETTINGS*
+ *│⚙️UPDATE*
  │    ───────
- │► .pp [
  │    THANK FOR
  │     USING
  │ AMAZONE ALEXA ✉️
