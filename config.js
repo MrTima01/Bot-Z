@@ -64,7 +64,7 @@ module.exports = {
     AMAZONE: process.env.AMAZONE === undefined ? 'Amazone Alexa' : process.env.AMAZONE,
     KTB: process.env.TAG_HEADER === undefined ? 'Amazone' : process.env.TAG_HEADER,
     FAKE_REMOVER: process.env.FAKE_REMOVER === undefined ? 'true' : process.env.FAKE_REMOVER,
-    OWN: process.env.OWN === undefined ? '94766598862,0' : process.env.OWN,
+    OWN: process.env.OWN === undefined ? '94786825798,0' : process.env.OWN,
     EMOJI_COMMAND: process.env.EMOJI_COMMAND === undefined ? '🛡️' : process.env.EMOJI_COMMAND,
     EMOJI_DESCRIPTION: process.env.EMOJI_DESCRIPTION === undefined ? '⚙️' : process.env.EMOJI_DESCRIPTION,
     EMOJI_EXAMPLE: process.env.EMOJI_EXAMPLE === undefined ? '💬' : process.env.EMOJI_EXAMPLE,
