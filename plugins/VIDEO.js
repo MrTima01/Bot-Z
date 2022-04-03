@@ -21,7 +21,7 @@ let KSK = config.WORKTYPE == 'public' ? false : true
 
 
 //public mode
-    amazone.addCommand({pattern: 'video ?(.*)', fromMe: KSK, desc: YTV_DESC}, (async (message, match) => { 
+    amazone.addCommand({pattern: '2video ?(.*)', fromMe: KSK, desc: YTV_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text , {quoted: message.data});    
         if (match[1].includes( 'shorts' )){
@@ -87,7 +87,7 @@ if (match[1].includes( 'shorts' )) {
 
 //in public for me 
 
- amazone.addCommand({pattern: 'video ?(.*)', fromMe: PUBH, desc: YTV_DESC}, (async (message, match) => { 
+ amazone.addCommand({pattern: '2video ?(.*)', fromMe: PUBH, desc: YTV_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text , {quoted: message.data});    
         if (match[1].includes( 'shorts' )){
@@ -205,7 +205,7 @@ const YTV_UP = "*🚀Uploading Your Video...*"
 const NO_RESULT = "*🌀can't Find Anything...*"
 const tk = Config.WORKTYPE == 'public' ? false : true
 
-    amazone.addCommand({ pattern: 'video ?(.*)', fromMe: tk, deleteCommand: false, desc: Lang.MP4,  deleteCommand: false}, async (message, match) => {
+    amazone.addCommand({ pattern: '2video ?(.*)', fromMe: tk, deleteCommand: false, desc: Lang.MP4,  deleteCommand: false}, async (message, match) => {
         const linkk = match[1]
         if (!linkk) return await message.client.sendMessage(message.jid,YT_NEED,MessageType.text)
         await message.client.sendMessage(message.jid,DWLOAD_VID,MessageType.text);
