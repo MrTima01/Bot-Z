@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/MrTima01/BOT-Z /root/BOT-Z
+RUN git clone https://github.com/MrTima01/BOT-Z /root/Z-BOT
 WORKDIR /root/ales/
 RUN git clone https://github.com/Kavindya-X/Config
 RUN git clone https://github.com/Kavindya-X/Angela-x
