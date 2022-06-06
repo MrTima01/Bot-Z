@@ -9,8 +9,8 @@ let fs = require('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
 let tags = {
-  'main': 'MENU UTAMA',
-  'game': 'MENU GAME',
+  'main': 'MAIN MENU',
+  '': 'MENU GAME',
   'rpg': 'MENU RPG',
   'xp': 'MENU EXP',
   'premium': 'MENU PREMIUM',
@@ -42,11 +42,6 @@ const defaultMenu = {
 ╭─❑ 「 INFO BOT 」 ❑──
 │ ✾ Name: Dark Max
 │ ✾ Realise: 2022 June 9
-╰❑
-╭─❑ 「 INFORMASI 」 ❑──
-│ Bot ini masih tahap beta
-│ apabila ada bug/eror harap
-│ lapor ke owner
 ╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -213,7 +208,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
   }
 }
 handler.help = ['menu']
-handler.tags = ['main']
+handler.tags = ['cmd']
 handler.command = /^(menu)$/i
 handler.owner = false
 handler.mods = false
