@@ -1,7 +1,7 @@
 {
-    "name": "DARK MAX V8",
-    "description": "DARK MAX NEW BOT FOR WHATSAPP",
-    "logo": "https://telegra.ph/file/2046371f4b8e65dd4d52e.jpg",
+    "name": "Dark Max V8",
+    "description": "Alexa is a chat bot for WhatsApp. Makes it easy and Working perfectly",
+    "logo": "https://ibb.co/PmcvBjb.jpg",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "amazone alexa"],
     "repository": "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
     "website":   "https://chat.whatsapp.com/B5i5mfIerpC6K8jf6GkM7I",
@@ -12,21 +12,39 @@
             "description": "Paste your QR session.",
             "required": true
         },
+        "SUDO": {
+            "description": "If you do not know how to use it, leave it blank! SUDO mode; Your number must be an international number. So you have to have your number after the country code. Example: 947xxxxxxxx (Sri lanka No. 94)",
+            "required": false
+        },
+        "BIO": {
+            "description": "Change Your live Bio | ඔබේ About එකට අවශ්‍ය දෙයක් මෙහි ලියන්න",
+            "required": false,
+            "value": ""
+        },
         "AUTO_STICKER": {
             "description": "If you likes Auto Sticker you can write 'true'. Otherwise false",
             "required": false,
             "value": "false"
          },
+        "BOT_NAME": {
+            "description": "give a name you disire to give your bot (for auto reply white to identify)",
+            "required": false,
+            "value": "*DARK MAX*"
+        },
+        "THIS CMD WAS REMOVED": {
+            "description": "removed success",
+            "required": false,
+            "value": "rem"
         },
         "SONGD": {
             "description": "Customizable Song Download message",
             "required": false,
-            "value": "*Hello User🔔 I Am Downloading Your Song*"
+            "value": "*HELLO USER🌹 I AM DOWNLOADING YOUR SONG*"
         },
         "SONGU": {
             "description": "Customizable Song upload message",
             "required": false,
-            "value": "*Hello User🔔 I Am Uploading Your Song*"
+            "value": "*HELLO USER🌹 I AM UPLOADING YOUR SONG*"
         },
         "LANGUAGE": {
             "description": "Enter your language. SI - Sinhala | EN - English | ES - Spanish(ag)",
@@ -69,7 +87,7 @@
         "CAPTIONS": {
             "description": "Set your caption under medias.",
             "required": true,
-            "value": "POWERD BY ᴅᴀʀᴋ ᴍᴀx MULTI DEVICE WA-BOT"
+            "value": "*POWERED BY DARK MAX MULTI DEVICE BOT*"
         },
         "MUTE_MESSAGE": {
             "description": "Message received when mute a group. If you do not want to change this message, type default.",
@@ -94,7 +112,7 @@
         "ALIVE_LOGO": {
             "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
             "required": true,
-            "value": "Your Logo"
+            "value": "https://ibb.co/PmcvBjb.jpg"
         },
         "WELCOME_GIF": {
             "description": "Welcome message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
@@ -146,19 +164,14 @@
             "required": true,
             "value": "false"
         },
-        "PANEL_COMMAND": {
-            "description": "Customizeable commands list request command. Keep alexa if you don't want to change.",
-            "required": true,
-            "value": "alexa"
-        },
         "REMOVE_BG_API_KEY": {
             "description": "Here you go to the website remove.bg and sign up and get an API key. Leave the API key in this space.",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "please set your alive msg",
-            "required": false,
-            "value": ""
+            "description": "The message you get when you check whether the bot is online or not. This is not necessarily the case.",
+            "required": true,
+            "value": "default"
         },
         "BAN_MESSAGE": {
             "description": "The message you get when someone commands you as .ban and removes it. If you do not want to change this message, type default.",
@@ -218,7 +231,7 @@
         "MENU_INFO": {
             "description": "write Some Words about yor Bot You can Edite this",
             "required": false,
-            "value": "┏━━━━━━━━━━━━━━━━━━━━━━━━━┃   DARK MAX-MD WHATSAPP BOT┗━━━━━━━━━━━━━━━━━━━━━━━━━\n\nHELLO USER!\n\n👨‍💻 COMMAND LIST 👨‍💻\nPOWERD BY ᴅᴀʀᴋ ᴍᴀx MULTI DEVICE WA-BOT"
+            "value": "default"
         }
     },
     "addons": [{
@@ -228,3 +241,4 @@
       "url": "heroku-community/apt"
       }]
   }
+
